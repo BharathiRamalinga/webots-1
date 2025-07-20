@@ -5,13 +5,13 @@
 # keywords: robot/wheeled
 # A ROS powered 4x4 drive autonomous mobile robot platform equipped with various sensors.
 
-EXTERNPROTO "projects/appearances/protos/GlossyPaint.proto"
-EXTERNPROTO "projects/appearances/protos/MattePaint.proto"
-EXTERNPROTO "projects/appearances/protos/BrushedAluminium.proto"
-EXTERNPROTO "projects/appearances/protos/Rubber.proto"
-EXTERNPROTO "projects/devices/tdk/protos/Mpu-9250.proto"
-EXTERNPROTO "projects/devices/slamtec/protos/RpLidarA2.proto"
-EXTERNPROTO "projects/devices/orbbec/protos/Astra.proto"
+EXTERNPROTO "webots-1/projects/appearances/protos/GlossyPaint.proto"
+EXTERNPROTO "webots-1/projects/appearances/protos/MattePaint.proto"
+EXTERNPROTO "webots-1/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "webots-1/projects/appearances/protos/Rubber.proto"
+EXTERNPROTO "webots-1/projects/devices/tdk/protos/Mpu-9250.proto"
+EXTERNPROTO "webots-1/projects/devices/slamtec/protos/RpLidarA2.proto"
+EXTERNPROTO "webots-1/projects/devices/orbbec/protos/Astra.proto"
 
 PROTO Rosbot [
   field  SFVec3f     translation     0 0 0

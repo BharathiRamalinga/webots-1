@@ -441,7 +441,7 @@ PROTO Rosbot [
         device [
           RotationalMotor {
             name "fl_wheel_joint"
-            maxVelocity 26.0
+            maxVelocity 46.0
             maxTorque 100.0
           }
           PositionSensor {
@@ -508,7 +508,7 @@ PROTO Rosbot [
         device [
           RotationalMotor {
             name "fr_wheel_joint"
-            maxVelocity 26.0
+            maxVelocity 46.0
             maxTorque 100.0
           }
           PositionSensor {
@@ -548,7 +548,7 @@ PROTO Rosbot [
         device [
           RotationalMotor {
             name "rl_wheel_joint"
-            maxVelocity 26.0
+            maxVelocity 46.0
             maxTorque 100.0
           }
           PositionSensor {
@@ -582,7 +582,7 @@ PROTO Rosbot [
         device [
           RotationalMotor {
             name "rr_wheel_joint"
-            maxVelocity 26.0
+            maxVelocity 46.0
             maxTorque 100.0
           }
           PositionSensor {

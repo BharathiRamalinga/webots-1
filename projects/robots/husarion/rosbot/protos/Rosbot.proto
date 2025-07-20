@@ -1,17 +1,17 @@
 #VRML_SIM R2025a utf8
-# license: Copyright Cyberbotics Ltd. Licensed for use only with Webots.
-# license url: https://cyberbotics.com/webots_assets_license
-# documentation url: https://webots.cloud/run?url=https://github.com/cyberbotics/webots/blob/released/projects/robots/husarion/rosbot/protos/Rosbot.proto
+# license: Copyright Cyberbotics Ltd. Licensed for use only with webots-1-1.
+# license url: https://cyberbotics.com/webots-1_assets_license
+# documentation url: https://webots-1.cloud/run?url=https://github.com/cyberbotics/webots-1/blob/released/projects/robots/husarion/rosbot/protos/Rosbot.proto
 # keywords: robot/wheeled
 # A ROS powered 4x4 drive autonomous mobile robot platform equipped with various sensors.
 
-EXTERNPROTO "webots://projects/appearances/protos/GlossyPaint.proto"
-EXTERNPROTO "webots://projects/appearances/protos/MattePaint.proto"
-EXTERNPROTO "webots://projects/appearances/protos/BrushedAluminium.proto"
-EXTERNPROTO "webots://projects/appearances/protos/Rubber.proto"
-EXTERNPROTO "webots://projects/devices/tdk/protos/Mpu-9250.proto"
-EXTERNPROTO "webots://projects/devices/slamtec/protos/RpLidarA2.proto"
-EXTERNPROTO "webots://projects/devices/orbbec/protos/Astra.proto"
+EXTERNPROTO "webots-1://projects/appearances/protos/GlossyPaint.proto"
+EXTERNPROTO "webots-1://projects/appearances/protos/MattePaint.proto"
+EXTERNPROTO "webots-1://projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "webots-1://projects/appearances/protos/Rubber.proto"
+EXTERNPROTO "webots-1://projects/devices/tdk/protos/Mpu-9250.proto"
+EXTERNPROTO "webots-1://projects/devices/slamtec/protos/RpLidarA2.proto"
+EXTERNPROTO "webots-1://projects/devices/orbbec/protos/Astra.proto"
 
 PROTO Rosbot [
   field  SFVec3f     translation     0 0 0
